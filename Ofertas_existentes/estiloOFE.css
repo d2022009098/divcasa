@@ -1,0 +1,48 @@
+/*Ana Luiza Lopes Penna; Walquiria Mafado*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.column {
+    float: left;
+    width: 49%;
+    font-family: monospace;
+    font-size: large;
+    border: 1px solid black;
+    margin: 5px;
+}
+.outColumn{
+    padding: 5px;
+}
+.outColumn:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+    padding: 5px;
+}
+
+.column {
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 90px;
+    width: 47%;
+    margin: 5px 1% 5px 1%;
+    float: left;
+    position: relative;
+    transition: height 0.5s;
+    -webkit-transition: height s;
+    text-align: center;
+    overflow: hidden;
+}
+
+.inside{
+    text-align: left;
+    padding: 5px;
+}

@@ -1,0 +1,30 @@
+/*Ana Luiza Lopes Penna; Walquiria Mafado*/
+*{
+    margin: 0;
+    padding: 10px;
+}
+.NOF_text{
+    font-family: monospace;
+    font-size: large;
+    
+}
+#highText{
+    background-color:  rgba(155, 151, 151, 0.623);
+}
+.column {
+    float: left;
+    width: 45%;
+    font-family: monospace;
+    font-size: large;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.paragrafo {
+    font-family: monospace;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: large;
+}

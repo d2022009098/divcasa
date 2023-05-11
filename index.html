@@ -1,0 +1,37 @@
+<!-- Ana Luiza Lopes Penna; Walquiria Mafado-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="/GERAL/script.js"></script>
+    <link rel="stylesheet" href="/GERAL/estilo.css">
+    <title>DivCasa</title>
+</head>
+<body>
+  
+    <nav id="menu">
+      <ul>
+        <li>
+          <a href="javascript:activateTab('page1')">SOBRE O PROJETO</a>
+        </li>
+        <li>
+          <a href="javascript:activateTab('page2')">PROCURAR VAGAS</a>
+        </li>
+        <li>
+          <a href="javascript:activateTab('page3')">PROCURAR MORADORES</a>
+        </li>
+        <li>
+          <a href="javascript:activateTab('page4')">REPÚBLICAS</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="tabCtrl">
+      <div id="page1" style="display: block"><iframe class="responsive-iframe" scrolling="no" src="/pagina_inicial/indexPI.html" frameborder="0"></iframe></div>
+      <div id="page2" style="display: none"><iframe class="responsive-iframe" scrolling="no" src="/Ofertas_existentes/indexOFE.html" frameborder="0"></iframe></div>
+      <div id="page3" style="display: none"><iframe class="responsive-iframe" scrolling="on" src="/novas_ofertas/indexNOF.html" frameborder="0"></iframe></div>
+      <div id="page4" style="display: none"><iframe class="responsive-iframe" scrolling="no" src="/republicas/indexREP.html" frameborder="0"></iframe></div>
+    </div>
+</body>
+</html>
